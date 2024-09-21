@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="navbar bg-black bg-opacity-10 navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="index.html">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold gap-4">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- main section starts -->
+    <section class="container">
+      <div class="my-5 mt-lg-0 pt-3 py-lg-4">
+        <div class="row text-white mx-auto">
+          <div
+            class="col-12 col-md-6 d-flex flex-column justify-content-center text-center text-md-start my-4 my-md-2"
+          >
+            <div class="typewriter-container">
+              <h1 class="text-white text-capitalize fw-bold my-4">
+                <p class="mb-2">Bringing Your</p>
+                <p class="dynamic-part mb-0 typewriter">
+                  <span id="typewriter1"></span>
+                  <span class="fst-italic d-inline" id="italic1"></span>
+                </p>
+              </h1>
+              <h1
+                class="text-white text-capitalize fw-bold my-lg-5 my-3"
+                style="display: none"
+              >
+                <p class="mb-2">Drive Results</p>
+                <p class="dynamic-part mb-0 typewriter">
+                  <span id="typewriter2"></span>
+                  <span class="fst-italic d-inline" id="italic2"></span>
+                </p>
+              </h1>
+              <h1
+                class="text-white text-capitalize fw-bold my-lg-5 my-3"
+                style="display: none"
+              >
+                <p class="mb-2">Unleash your</p>
+                <p class="dynamic-part mb-0 typewriter">
+                  <span class="fst-italic d-inline" id="italic3"></span>
+                  <span id="typewriter3"></span>
+                </p>
+              </h1>
+            </div>
+
+            <p class="fw-medium fw-md-medium my-0 pf">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+            <p class="fw-medium fw-md-medium mb-4 pf">
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution
+            </p>
+
+            <button
+              class="btn btn-main fw-bolder rounded-5 border-1 border-white mx-auto ms-md-0 p-0"
+            >
+              <a href="contact.html" class="text-decoration-none text-white"
+                >Contact Us</a
+              >
+            </button>
+          </div>
+          <div class="col-12 col-md-6 mt-md-5 text-center">
+            <div
+              id="carouselExample"
+              class="carousel mt-3 secvh"
+              data-bs-ride="carousel"
+              data-bs-interval="6000"
+              data-bs-pause="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/hero 1.png"
+                    class="img-fluid"
+                    alt="Slide 1 Image"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/hero 2.png"
+                    class="img-fluid"
+                    alt="Slide 2 Image"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/hero 3.png"
+                    class="img-fluid"
+                    alt="Slide 3 Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main section ends -->
+
+    <!-- services section start -->
+
+    <section id="main" class="container scroll-trigger my-5 text-center">
+      <p class="h1 text-center text-white fw-bold">Our Services</p>
+
+      <div class="row my-4 g-3">
+        <div class="col-12 col-lg-3 col-sm-6">
+          <div
+            class="card bg-white rounded-4 bg-opacity-10 mx-auto hover"
+            style="max-width: 25rem"
+          >
+            <img
+              src="images/monitor1.svg"
+              class="card-img-top my-4"
+              alt="Monitor Image"
+            />
+            <div class="card-body text-white">
+              <h3 class="card-title mb-4">Web<br />Development</h3>
+              <p class="card-text my-2">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-sm-6">
+          <div
+            class="card bg-white bg-opacity-10 rounded-4 mx-auto hover"
+            style="max-width: 25rem"
+          >
+            <img
+              src="images/app-development1.svg"
+              class="card-img-top my-4"
+              alt="App Development Image"
+            />
+            <div class="card-body text-white">
+              <h3 class="card-title mb-4">App<br />Development</h3>
+              <p class="card-text my-2">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-sm-6">
+          <div
+            class="card bg-white rounded-4 bg-opacity-10 mx-auto hover"
+            style="max-width: 25rem"
+          >
+            <img
+              src="images/ux-design1.svg"
+              class="card-img-top my-4"
+              alt="UI UX Design Image"
+            />
+            <div class="card-body text-white">
+              <h3 class="card-title mb-4">UI UX <br />Designing</h3>
+              <p class="card-text my-2">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-sm-6">
+          <div
+            class="card bg-white rounded-4 bg-opacity-10 mx-auto hover"
+            style="max-width: 25rem"
+          >
+            <img
+              src="images/monitor1.svg"
+              class="card-img-top my-4"
+              alt="Monitor Image"
+            />
+            <div class="card-body text-white">
+              <h3 class="card-title mb-4">Web<br />Development</h3>
+              <p class="card-text my-2">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button
+          class="btn btn-main-s text-dark fw-bolder rounded-5 border-1 border-white d-block mx-auto mb-md-5 my-5 p-0"
+        >
+          <a
+            class="text-white text-decoration-none rounded-5"
+            href="services.html"
+          >
+            See All</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!-- services section end -->
+
+    <!-- visit section starts -->
+    <section class="container">
+      <div class="mt-5">
+        <div class="row text-white mx-auto">
+          <div
+            class="col-12 col-lg-5 col-md-6 d-flex justify-content-center flex-column"
+          >
+            <h2 class="text-white">
+              Launch a software businesses website today with us!
+            </h2>
+            <p class="mb-2 mb-lg-4">
+              Launch a business today with our help and get it done with amazing
+              launch features, websites and more with uifry. We help business
+              like yours thrive every day and beyond.
+            </p>
+            <div class="d-flex gap-4 my-3">
+              <button class="btn outline text-white">
+                <svg
+                  id="Arrow - Right 2"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 26 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.75 5L15.75 12L8.75 19"
+                    stroke="#3c3679"
+                    stroke-width="1.5"
+                    stroke-linecap="square"
+                  />
+                </svg>
+              </button>
+              <p class="fw-bold mb-0 align-self-center">Book a Demo Today</p>
+            </div>
+            <div class="d-flex gap-4">
+              <button class="btn bg-inside text-white">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg
+                  id="Star"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <title>Iconly/Light-Outline/Star</title>
+                  <g
+                    id="Iconly/Light-Outline/Star"
+                    stroke="none"
+                    stroke-width="1.5"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <path
+                      d="M11.7499161,4.5 C11.6589161,4.5 11.4349161,4.525 11.3159161,4.763 L9.48991609,8.414 C9.20091609,8.991 8.64391609,9.392 7.99991609,9.484 L3.91191609,10.073 C3.64191609,10.112 3.54991609,10.312 3.52191609,10.396 C3.49691609,10.477 3.45691609,10.683 3.64291609,10.861 L6.59891609,13.701 C7.06991609,14.154 7.28391609,14.807 7.17191609,15.446 L6.47591609,19.456 C6.43291609,19.707 6.58991609,19.853 6.65991609,19.903 C6.73391609,19.959 6.93191609,20.07 7.17691609,19.942 L10.8319161,18.047 C11.4079161,17.75 12.0939161,17.75 12.6679161,18.047 L16.3219161,19.941 C16.5679161,20.068 16.7659161,19.957 16.8409161,19.903 C16.9109161,19.853 17.0679161,19.707 17.0249161,19.456 L16.3269161,15.446 C16.2149161,14.807 16.4289161,14.154 16.8999161,13.701 L19.8559161,10.861 C20.0429161,10.683 20.0029161,10.476 19.9769161,10.396 C19.9499161,10.312 19.8579161,10.112 19.5879161,10.073 L15.4999161,9.484 C14.8569161,9.392 14.2999161,8.991 14.0109161,8.413 L12.1829161,4.763 C12.0649161,4.525 11.8409161,4.5 11.7499161,4.5 M6.94691609,21.5 C6.53391609,21.5 6.12391609,21.37 5.77291609,21.114 C5.16691609,20.67 4.86991609,19.937 4.99891609,19.199 L5.69491609,15.189 C5.72091609,15.04 5.66991609,14.889 5.55991609,14.783 L2.60391609,11.943 C2.05991609,11.422 1.86491609,10.652 2.09491609,9.937 C2.32691609,9.214 2.94091609,8.697 3.69791609,8.589 L7.78591609,8 C7.94391609,7.978 8.07991609,7.881 8.14791609,7.743 L9.97491609,4.091 C10.3119161,3.418 10.9919161,3 11.7499161,3 L11.7499161,3 C12.5079161,3 13.1879161,3.418 13.5249161,4.091 L15.3529161,7.742 C15.4219161,7.881 15.5569161,7.978 15.7139161,8 L19.8019161,8.589 C20.5589161,8.697 21.1729161,9.214 21.4049161,9.937 C21.6349161,10.652 21.4389161,11.422 20.8949161,11.943 L17.9389161,14.783 C17.8289161,14.889 17.7789161,15.04 17.8049161,15.188 L18.5019161,19.199 C18.6299161,19.938 18.3329161,20.671 17.7259161,21.114 C17.1109161,21.565 16.3099161,21.626 15.6309161,21.272 L11.9779161,19.379 C11.8349161,19.305 11.6639161,19.305 11.5209161,19.379 L7.86791609,21.273 C7.57591609,21.425 7.26091609,21.5 6.94691609,21.5"
+                      id="Star"
+                      fill="#ffffff"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <p class="fw-medium mb-0 align-self-center">
+                Rated 4.9 out of 1200 reviews
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-7 col-md-6 text-center position-relative home1"
+          >
+            <figure class="w-100">
+              <img
+                src="/images/home1M.png"
+                alt="Visit Section Image"
+                class="img-fluid"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- visit section end -->
+
+    <!-- client section starts -->
+    <section class="container">
+      <div class="mt-5">
+        <div class="row text-white mx-auto">
+          <div class="col-12 col-lg-7 col-md-6 text-center">
+            <figure class="w-100">
+              <img
+                src="/images/home 2.png"
+                alt="Client Section Image"
+                class="img-fluid"
+              />
+            </figure>
+          </div>
+          <div
+            class="col-12 col-lg-5 col-md-6 d-flex flex-column justify-content-center"
+          >
+            <h2 class="text-white text-capitalize">
+              Let your business thrive under our supervision
+            </h2>
+            <p>
+              Launch a business today with our help and get it done with amazing
+              launch features, websites and more with uifry. We help business
+              like yours thrive every day and beyond.
+            </p>
+            <div class="d-flex gap-5 justify-content-start my-1 my-lg-3">
+              <div class="d-flex gap-3">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg
+                  class="mt-2"
+                  id="Tick Square"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <title>Iconly/Light-Outline/Tick Square</title>
+                  <g
+                    id="Iconly/Light-Outline/Tick-Square"
+                    stroke="none"
+                    stroke-width="1.5"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Tick-Square"
+                      transform="translate(2.000000, 2.000000)"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M14.334,0 C17.723,0 20,2.378 20,5.916 L20,14.084 C20,17.622 17.723,20 14.333,20 L5.665,20 C2.276,20 0,17.622 0,14.084 L0,5.916 C0,2.378 2.276,0 5.665,0 L14.334,0 Z M14.334,1.5 L5.665,1.5 C3.135,1.5 1.5,3.233 1.5,5.916 L1.5,14.084 C1.5,16.767 3.135,18.5 5.665,18.5 L14.333,18.5 C16.864,18.5 18.5,16.767 18.5,14.084 L18.5,5.916 C18.5,3.233 16.864,1.5 14.334,1.5 Z M14.0895,7.097 C14.3825,7.39 14.3825,7.864 14.0895,8.157 L9.3435,12.903 C9.1975,13.05 9.0055,13.123 8.8135,13.123 C8.6225,13.123 8.4295,13.05 8.2835,12.903 L5.9095,10.53 C5.6165,10.237 5.6165,9.763 5.9095,9.47 C6.2025,9.177 6.6765,9.177 6.9695,9.47 L8.8135,11.312 L13.0295,7.097 C13.3225,6.804 13.7965,6.804 14.0895,7.097 Z"
+                        id="Combined-Shape"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+                <p class="fw-bold">
+                  100+ <br />
+                  Successfull Projects
+                </p>
+              </div>
+
+              <div class="d-flex gap-3">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg
+                  class="mt-2"
+                  id="Tick Square"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <title>Iconly/Light-Outline/Tick Square</title>
+                  <g
+                    id="Iconly/Light-Outline/Tick-Square"
+                    stroke="none"
+                    stroke-width="1.5"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Tick-Square"
+                      transform="translate(2.000000, 2.000000)"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M14.334,0 C17.723,0 20,2.378 20,5.916 L20,14.084 C20,17.622 17.723,20 14.333,20 L5.665,20 C2.276,20 0,17.622 0,14.084 L0,5.916 C0,2.378 2.276,0 5.665,0 L14.334,0 Z M14.334,1.5 L5.665,1.5 C3.135,1.5 1.5,3.233 1.5,5.916 L1.5,14.084 C1.5,16.767 3.135,18.5 5.665,18.5 L14.333,18.5 C16.864,18.5 18.5,16.767 18.5,14.084 L18.5,5.916 C18.5,3.233 16.864,1.5 14.334,1.5 Z M14.0895,7.097 C14.3825,7.39 14.3825,7.864 14.0895,8.157 L9.3435,12.903 C9.1975,13.05 9.0055,13.123 8.8135,13.123 C8.6225,13.123 8.4295,13.05 8.2835,12.903 L5.9095,10.53 C5.6165,10.237 5.6165,9.763 5.9095,9.47 C6.2025,9.177 6.6765,9.177 6.9695,9.47 L8.8135,11.312 L13.0295,7.097 C13.3225,6.804 13.7965,6.804 14.0895,7.097 Z"
+                        id="Combined-Shape"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+                <p class="fw-bold">978+ <br />Clients Today</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 gap-md-5 my-2 my-lg-4">
+              <p class="fw-bold">
+                <a href="contact.html" class="text-white text-decoration-none">
+                  Contact Now
+                </a>
+              </p>
+              <svg
+                id="Arrow - Right 2"
+                width="24"
+                height="24"
+                viewBox="0 0 26 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.75 5L15.75 12L8.75 19"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="square"
+                />
+              </svg>
+              <p class="fw-bold">
+                <a href="contact.html" class="text-white text-decoration-none">
+                  Book a Demo Today
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- client section ends -->
+
+    <!-- part section start  -->
+    <section class="container">
+      <div class="part text-center text-white my-5 mx-auto w-75">
+        <p class="h1">Become part of the design revolution</p>
+        <p>
+          Launch a business today with our help and get it done with amazing
+          launch features, websites and more with uifry. We help business like
+          yours thrive every day and beyond.
+        </p>
+      </div>
+    </section>
+    <!-- part section end  -->
+
+    <!-- footer part start  -->
+    <footer class="pb-2 container">
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-between text-white pf"
+      >
+        <div class="left w-50 text-center text-sm-start mx-auto mx-sm-0 mb-3">
+          <h2 class="fw-lg-bolder">Logo</h2>
+          <p class="my-3 fw-lg-medium">
+            Kornix - the leading digital agency based in the UK, working with
+            top-tier clients, from start-ups to enterprises.
+          </p>
+        </div>
+        <div
+          class="right d-flex flex-column justify-content-center align-items-center align-items-sm-end mb-3 mx-auto mx-sm-0 gap-3 fw-medium w-50"
+        >
+          <div class="d-flex gap-2">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              id="Message"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>Iconly/Light-Outline/Message</title>
+              <g
+                id="Iconly/Light-Outline/Message"
+                stroke="none"
+                stroke-width="1.5"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Message"
+                  transform="translate(1.000000, 1.000000)"
+                  fill="#fffefe"
+                >
+                  <path
+                    d="M15.6589,1 C18.9889,1 21.4999,3.717 21.4999,7.32 L21.4999,14.188 C21.4999,16.032 20.8479,17.698 19.6629,18.88 C18.5999,19.939 17.2209,20.5 15.6749,20.5 L5.8219,20.5 C4.2789,20.5 2.9009,19.94 1.8369,18.88 C0.6519,17.698 -0.0001,16.032 -0.0001,14.188 L-0.0001,7.32 C-0.0001,3.717 2.5109,1 5.8409,1 L15.6589,1 Z M15.6589,2.5 L5.8409,2.5 C3.3259,2.5 1.4999,4.527 1.4999,7.32 L1.4999,14.188 C1.4999,15.631 1.9959,16.92 2.8959,17.817 C3.6719,18.592 4.6849,19 5.8249,19 L15.6589,19 C15.6609,18.998 15.6689,19 15.6749,19 C16.8159,19 17.8279,18.592 18.6039,17.817 C19.5049,16.92 19.9999,15.631 19.9999,14.188 L19.9999,7.32 C19.9999,4.527 18.1739,2.5 15.6589,2.5 Z M17.2349,7.1288 C17.4959,7.4498 17.4469,7.9218 17.1259,8.1838 L12.6819,11.7958 C12.1199,12.2418 11.4479,12.4648 10.7769,12.4648 C10.1079,12.4648 9.4409,12.2438 8.8829,11.8018 L4.3979,8.1858 C4.0749,7.9258 4.0249,7.4528 4.2839,7.1308 C4.5449,6.8098 5.0169,6.7588 5.3389,7.0178 L9.8199,10.6298 C10.3829,11.0758 11.1759,11.0758 11.7429,10.6258 L16.1789,7.0198 C16.5009,6.7568 16.9729,6.8068 17.2349,7.1288 Z"
+                    id="Combined-Shape"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <a class="text-white" href="#">info@ideapeel.com</a>
+          </div>
+          <div class="d-flex gap-2">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              id="Call"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>Iconly/Light-Outline/Call</title>
+              <g
+                id="Iconly/Light-Outline/Call"
+                stroke="none"
+                stroke-width="1.5"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Call"
+                  transform="translate(2.000000, 2.000000)"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M2.3595,3.0607 C2.3615,3.0607 2.3115,3.1127 2.2485,3.1747 C2.0065,3.4097 1.5055,3.8987 1.50044962,4.9217 C1.4925,6.3527 2.4335,9.0097 6.9645,13.5397 C11.4745,18.0477 14.1275,18.9997 15.5615,18.9997 L15.5825,18.9997 C16.6055,18.9947 17.0935,18.4927 17.3295,18.2517 C17.4015,18.1777 17.4595,18.1237 17.5005,18.0897 C18.4965,17.0877 19.0065,16.3417 19.0015364,15.8637 C18.9945,15.3757 18.3875,14.7987 17.5485,14.0007 C17.2815,13.7467 16.9915,13.4707 16.6855,13.1647 C15.8925,12.3737 15.4995,12.5087 14.6355,12.8127 C13.4405,13.2317 11.8005,13.8017 9.2525,11.2527 C6.7005,8.7027 7.2715,7.0647 7.6895,5.8697 C7.9915,5.0057 8.1295,4.6117 7.3355,3.8177 C7.0245,3.5077 6.7455,3.2137 6.4885,2.9437 C5.6955,2.1097 5.1235,1.5067 4.6385,1.4997 L4.6305,1.4997 C4.1515,1.4997 3.4075,2.0117 2.3545,3.0647 C2.3575,3.0617 2.3585,3.0607 2.3595,3.0607 L2.3595,3.0607 Z M15.5625,20.4997 C13.0705,20.4997 9.8215,18.5157 5.9045,14.6007 C1.9725,10.6697 -0.0145,7.4107 0.000415706294,4.9137 C0.0095,3.2637 0.8745,2.4187 1.1995,2.1017 C1.2165,2.0807 1.2745,2.0237 1.2945,2.0037 C2.7285,0.5687 3.6955,-0.0113 4.6575,-0.000453341181 C5.7745,0.0147 6.5695,0.8507 7.5755,1.9097 C7.8245,2.1717 8.0945,2.4567 8.3955,2.7567 C9.8555,4.2167 9.4395,5.4077 9.1055,6.3637 C8.7415,7.4067 8.4265,8.3067 10.3125,10.1927 C12.2005,12.0787 13.1005,11.7637 14.1395,11.3967 C15.0965,11.0627 16.2845,10.6447 17.7465,12.1047 C18.0425,12.4007 18.3235,12.6677 18.5825,12.9147 C19.6465,13.9257 20.4865,14.7247 20.5006822,15.8447 C20.5125,16.7997 19.9325,17.7727 18.5005,19.2057 L17.8665,18.7757 L18.4025,19.2997 C18.0855,19.6247 17.2415,20.4907 15.5905,20.4997 L15.5625,20.4997 Z"
+                    id="Fill-1"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p>(001) 1231 3435</p>
+          </div>
+          <div class="d-flex gap-4 ms-1">
+            <i class="fa-brands fa-facebook" style="color: #ff59e2"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <img src="images/ball.svg" alt="basketball" />
+          </div>
+        </div>
+      </div>
+      <p
+        class="text-center text-md-end text-xl-center fw-medium text-white my-sm-4"
+      >
+        © 2023 shantogfx - All Right Reserved
+      </p>
+    </footer>
+    <!-- footer part end  -->
+
+    <script>
+      // for navbar
+      document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        const scrollTrigger = document.getElementById("main");
+
+        if (!scrollTrigger) return; // Exit if the section is not present
+
+        let lastScrollTop = 0;
+
+        window.addEventListener("scroll", function () {
+          const scrollTop = window.scrollY;
+          const triggerOffset = scrollTrigger.offsetTop;
+
+          if (scrollTop < 100) {
+            navbar.classList.remove("navbar-hidden", "navbg", "navbar-fixed");
+            navbar.style.transition = "none"; // Disable transition to prevent animation
+          } else {
+            navbar.style.transition = ""; // Re-enable transition for other scrolls
+            navbar.classList.add("navbar-fixed"); // Add fixed class when scrolling down
+
+            if (scrollTop > lastScrollTop) {
+              // Scrolling down
+              if (scrollTop < triggerOffset) {
+                navbar.classList.add("navbar-hidden"); // Hide when above the trigger section
+                navbar.classList.remove("navbg");
+              } else {
+                navbar.classList.remove("navbar-hidden"); // Show when in the trigger section
+                navbar.classList.add("navbg");
+              }
+            } else {
+              // Scrolling up
+              if (scrollTop < triggerOffset) {
+                navbar.classList.add("navbar-hidden"); // Hide when scrolling up before the section
+                navbar.classList.remove("navbg");
+              } else {
+                navbar.classList.remove("navbar-hidden"); // Show when scrolling up within the section
+                navbar.classList.add("navbg");
+              }
+            }
+          }
+
+          lastScrollTop = scrollTop;
+        });
+      });
+    </script>
+    <script src="script.js" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/jrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
